@@ -8,6 +8,9 @@ package com.example.helloandroidworld
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
+/**
+ *  This is MainActivity.kt file.
+ */
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
