@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fundamental characteristics of my app are described in the AndroidManifest.xml file.
+     Each of my App components are defined in the AndroidManifest.xml
+     Every app project must have an AndroidManifest.xml file at the root of the project source
+     From this manifest file Android build tools, the Android OS, and Google Play get to know the essential information about my app.
+    -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloandroidworld">
+
+<!-- Added an activity attribute android:allowEmbedded="true". When allowEmbedded = true, it means this activity
+can be launched as the embedded child of another activity.
+ -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloAndroidWorld">
+        <activity
+            android:name=".MainActivity"
+            android:allowEmbedded="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<!-- A strings.xml resource provides text strings for my application with optional text formatting and styling  -->
+<resources>
+    <string name="app_name">Hello Android World</string>
+    <!-- Created a string resource with a name "my_first_android_app" that has a text "My First Android App"  -->
+    <string name="my_first_android_app">My First Android App</string>
+    <!-- Created a string resource with a name "android_image" that has a text "android_logo"  -->
+    <!-- In the activity_main added this string to the widget ImageView android:contentDescription -->
+    <string name="android_image">android_logo</string>
+</resources>
